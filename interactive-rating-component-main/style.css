@@ -1,0 +1,90 @@
+:root{
+    --bg-color:#20272e  ;
+    --orange:hsl(25, 97%, 53%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --very-dark-blue:hsl(216, 12%, 8%);
+    --grey:hsl(217, 12%, 63%);
+    --med-grey:hsl(216, 12%, 54%);
+}
+html{
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:var(--very-dark-blue);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 20rem;
+    height:23rem;
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+    
+}
+.container{
+    margin: 1rem;
+}
+.logo img{
+    
+    padding: 1rem;
+    background-color:var(--bg-color);
+    margin-top: 0.5rem;
+    border-radius: 50%;
+}
+.titre{
+    color: #fff;
+}
+.desc{
+    line-height: 25px;
+color: var(--grey);
+}
+
+.note ul{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--grey);
+    
+}
+
+.note ul li a{
+    background-color:var(--bg-color);
+    padding: 16px 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: var(--med-grey);
+}
+.note ul li a:hover{
+    background-color: var(--med-grey);
+    color: #fff;
+}
+
+.note ul li a:active{
+    
+    color: #fff; 
+    background-color: var(--orange);
+}
+.note ul li a:active{
+    color:#fff;
+}
+button{
+    background-color:var(--orange) ;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+button:active{
+    background-color: #fff;
+    color: var(--orange);
+}
